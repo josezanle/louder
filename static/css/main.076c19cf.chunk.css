@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -22,7 +24,7 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-image: url(../media/logo.427a4adc.svg), -webkit-linear-gradient(top left, #162c1f 0, #007d35 40%, #0f574e);
+    background-image: url(../media/logo.427a4adc.svg), -webkit-linear-gradient(top left, #162c1f 0, #15472a 40%, #0f574e);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,22 +34,13 @@ body {
     border-radius: 2em;
     background-color: hsla(0, 0%, 100%, .705);
     margin: 0 2em;
-    padding: 2em;
+    padding: 2em !important;
     width: 60%;
     height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.frase h4:before {
-    content: open-quote;
-    font-size: 10rem;
-    color: #000;
-    position: absolute;
-    left: -1rem;
-    top: -2rem
 }
 
 .frase h4 {
