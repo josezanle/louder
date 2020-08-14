@@ -75,5 +75,11 @@ button {
     }
 }
 
+@media (min-width:327px) {
+    h4 {
+        font-size: .8em;
+    }
+}
+
 
 /*# sourceMappingURL=main.076c19cf.chunk.css.map */
