@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-image: url(./logo.427a4adc.svg), -webkit-linear-gradient(top left, #162c1f 0, #007d35 40%, #0f574e);
+    background-image: url(../media/logo.427a4adc.svg), -webkit-linear-gradient(top left, #162c1f 0, #007d35 40%, #0f574e);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
