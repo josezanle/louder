@@ -31,11 +31,16 @@ body {
 }
 
 .frase {
-    border-radius: 1em;
+    border-radius: 2em;
     background-color: hsla(0, 0%, 100%, .705);
     margin: 0 2em;
+    padding: 2em;
     width: 60%;
     height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .frase h4:before {
